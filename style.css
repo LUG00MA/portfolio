@@ -120,11 +120,9 @@ mark { background:var(--blp); color:var(--bl); border-radius:3px; padding:0 4px 
 .sb-profile { padding:1.8rem 1.4rem 1.4rem; text-align:center; border-bottom:1px solid var(--brd) }
 .sb-av {
   width:76px; height:76px; border-radius:50%;
-  background:linear-gradient(135deg,var(--bl),var(--bls));
   display:flex; align-items:center; justify-content:center;
-  margin:0 auto 1rem; position:relative;
+  margin:0 auto 1rem; position:relative; overflow:hidden;
 }
-.sb-av span { font-family:"DM Serif Display",serif; font-size:1.5rem; color:#fff; font-weight:400 }
 .sb-av-ring {
   position:absolute; inset:-5px; border-radius:50%;
   border:2px solid var(--blp);

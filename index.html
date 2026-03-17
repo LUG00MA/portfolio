@@ -15,7 +15,24 @@
 <aside class="sidebar" id="sidebar">
   <button class="sb-close" id="sbClose">&#x2715;</button>
   <div class="sb-profile">
-    <div class="sb-av"><span>MC</span><div class="sb-av-ring"></div></div>
+    <div class="sb-av">
+      <svg viewBox="0 0 76 76" xmlns="http://www.w3.org/2000/svg" width="76" height="76" style="position:absolute;inset:0;border-radius:50%">
+        <defs>
+          <radialGradient id="avGrad" cx="35%" cy="30%" r="75%">
+            <stop offset="0%" stop-color="#60a5fa"/>
+            <stop offset="100%" stop-color="#1d4ed8"/>
+          </radialGradient>
+          <filter id="avShadow">
+            <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#1e40af" flood-opacity="0.5"/>
+          </filter>
+        </defs>
+        <circle cx="38" cy="38" r="38" fill="url(#avGrad)"/>
+        <text x="38" y="30" text-anchor="middle" fill="rgba(255,255,255,0.15)" font-family="Georgia,serif" font-size="38" font-weight="700" letter-spacing="-1">MC</text>
+        <text x="38" y="50" text-anchor="middle" fill="white" font-family="Georgia,serif" font-size="26" font-weight="700" letter-spacing="2" filter="url(#avShadow)">MC</text>
+        <circle cx="38" cy="38" r="37" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+      </svg>
+      <div class="sb-av-ring"></div>
+    </div>
     <p class="sb-name">Matteo<br>Campomenoso</p>
     <p class="sb-role">D&eacute;veloppeur SLAM</p>
     <div class="sb-socials">
