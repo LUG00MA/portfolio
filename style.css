@@ -342,6 +342,7 @@ mark { background:var(--blp); color:var(--bl); border-radius:3px; padding:0 4px 
 .lc-name { font-weight:700; font-size:.92rem; color:var(--tx); margin-bottom:.5rem; transition:color var(--t) }
 .lc-tags { display:flex; flex-wrap:wrap; gap:4px; justify-content:center }
 .lc-tags span { font-size:.65rem; font-weight:600; padding:2px 7px; border-radius:4px; background:var(--bg2); border:1px solid var(--brd); color:var(--txm) }
+.arbo-wrap { overflow-x:auto; padding:1.2rem; background:var(--bg2); border-radius:var(--r); border:1px solid var(--brd) }
 .tools-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(155px,1fr)); gap:8px }
 .tc {
   display:flex; align-items:center; gap:8px;
