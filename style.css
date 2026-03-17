@@ -319,16 +319,17 @@ mark { background:var(--blp); color:var(--bl); border-radius:3px; padding:0 4px 
 
 /* ══════════════ COMPÉTENCES ══════════════ */
 .sk-sub { font-family:"DM Serif Display",serif; font-weight:400; font-size:1.15rem; margin-bottom:1.3rem; color:var(--tx) }
-.lang-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:1rem; margin-bottom:.8rem }
+.lang-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(130px,1fr)); gap:.85rem; margin-bottom:.8rem }
 .lc {
   background:var(--bg); border:1.5px solid var(--brd); border-radius:var(--r);
-  padding:1.6rem 1.1rem 1.3rem; text-align:center;
+  padding:1.8rem 1rem 1.4rem; text-align:center;
   display:flex; flex-direction:column; align-items:center;
   position:relative; overflow:hidden;
   transition:transform var(--t),border-color var(--t),box-shadow var(--t);
   cursor:default;
 }
-.lc:hover { transform:translateY(-5px); border-color:color-mix(in srgb,var(--lc) 50%,transparent); box-shadow:0 8px 28px rgba(30,64,175,.1) }
+.lc:hover { transform:translateY(-6px); border-color:color-mix(in srgb,var(--lc) 60%,transparent); box-shadow:0 12px 32px color-mix(in srgb,var(--lc) 15%,transparent) }
+.lc:hover .lc-name { color:var(--lc) }
 .lc-glow {
   position:absolute; top:0; left:0; right:0; height:3px;
   background:var(--lc);
@@ -336,10 +337,9 @@ mark { background:var(--blp); color:var(--bl); border-radius:3px; padding:0 4px 
   transition:transform var(--t);
 }
 .lc:hover .lc-glow { transform:scaleX(1) }
-.lc-logo { width:72px; height:72px; display:flex; align-items:center; justify-content:center; margin-bottom:.8rem }
-.lc-logo svg { width:72px; height:72px; display:block }
-.lc-name { font-weight:700; font-size:.88rem; color:var(--tx); margin-bottom:2px }
-.lc-sub { font-size:.74rem; color:var(--txs); margin-bottom:.6rem }
+.lc-logo { width:80px; height:80px; display:flex; align-items:center; justify-content:center; margin-bottom:1rem }
+.lc-logo svg { width:80px; height:80px; display:block }
+.lc-name { font-weight:700; font-size:.92rem; color:var(--tx); margin-bottom:.5rem; transition:color var(--t) }
 .lc-tags { display:flex; flex-wrap:wrap; gap:4px; justify-content:center }
 .lc-tags span { font-size:.65rem; font-weight:600; padding:2px 7px; border-radius:4px; background:var(--bg2); border:1px solid var(--brd); color:var(--txm) }
 .tools-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(155px,1fr)); gap:8px }
