@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"/>
+<title>Matteo Campemenoso — Portfolio BTS SIO SLAM 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<aside class="sidebar" id="sidebar">
+  <button class="sb-close" id="sbClose">&#x2715;</button>
+  <div class="sb-profile">
+    <div class="sb-av"><span>MC</span><div class="sb-av-ring"></div></div>
+    <p class="sb-name">Matteo<br>Campemenoso</p>
+    <p class="sb-role">D&eacute;veloppeur SLAM</p>
+    <div class="sb-socials">
+      <a href="https://github.com/matteo-campemenoso" target="_blank" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.907-.62.07-.608.07-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.683-.104-.253-.447-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.308.678.917.678 1.852 0 1.335-.012 2.415-.012 2.74 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+      </a>
+      <a href="https://linkedin.com/in/matteo-campemenoso" target="_blank" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a href="/cdn-cgi/l/email-protection#bfd2decbcbdad091dcded2cfdad2dad1d0ccd0ffdac7ded2cfd3da91dcd0d2" title="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
+      </a>
+    </div>
+  </div>
+  <nav class="sb-nav">
+    <a href="#hero"           class="sn active"><span class="sn-i">00</span>Accueil</a>
+    <a href="#about"          class="sn"><span class="sn-i">01</span>&Agrave;&nbsp;propos</a>
+    <a href="#certifications" class="sn"><span class="sn-i">02</span>Certifications</a>
+    <a href="#skills"         class="sn"><span class="sn-i">03</span>Comp&eacute;tences</a>
+    <a href="#resume"         class="sn"><span class="sn-i">04</span>Parcours</a>
+    <a href="#projects"       class="sn"><span class="sn-i">05</span>Projets</a>
+    <a href="#e4"             class="sn"><span class="sn-i">06</span>Tableau E4</a>
+    <a href="#veille"         class="sn"><span class="sn-i">07</span>Veille</a>
+    <a href="#contact"        class="sn"><span class="sn-i">08</span>Contact</a>
+  </nav>
+  <p class="sb-copy">&copy; 2026 Matteo Campemenoso</p>
+</aside>
+<button class="mob-btn" id="mobBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+<div class="sb-overlay" id="sbOverlay"></div>
+
+<main class="mc">
+
+<!-- HERO -->
+<section id="hero" class="sec hero-sec">
+  <div class="hero-deco" aria-hidden="true">
+    <div class="hd-blob hd-blob--a"></div>
+    <div class="hd-blob hd-blob--b"></div>
+    <div class="hd-lines"></div>
+  </div>
+  <div class="hero-content">
+    <span class="hero-eyebrow reveal">BTS SIO SLAM &mdash; Session 2026</span>
+    <h1 class="hero-h1 reveal" style="--d:.07s">
+      Bonjour,<br>je suis <em id="typed-em"><span id="typed-text"></span><span class="tcursor">|</span></em>
+    </h1>
+    <p class="hero-sub reveal" style="--d:.14s">
+      &Eacute;tudiant en 2<sup>e</sup>&nbsp;ann&eacute;e de BTS au <strong>Lyc&eacute;e Paul Claudel &mdash; Laon</strong>.
+      Je d&eacute;veloppe des applications web et des sites, aussi bien c&ocirc;t&eacute; int&eacute;gration que c&ocirc;t&eacute; serveur.
+    </p>
+    <div class="hero-ctas reveal" style="--d:.21s">
+      <a href="#projects" class="btn-primary">Voir mes projets</a>
+      <a href="cv.pdf" download class="btn-outline-blue">T&eacute;l&eacute;charger mon CV</a>
+    </div>
+    <div class="hero-kpis reveal" style="--d:.28s">
+      <div class="kpi"><b>5</b><span>Projets r&eacute;alis&eacute;s</span></div>
+      <div class="kpi-div"></div>
+      <div class="kpi"><b>2</b><span>Stages en entreprise</span></div>
+      <div class="kpi-div"></div>
+      <div class="kpi"><b>2&nbsp;ans</b><span>de formation BTS</span></div>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="hs-mouse"><div class="hs-w"></div></div><span>D&eacute;filer</span>
+  </div>
+</section>
+
+<!-- À PROPOS -->
+<section id="about" class="sec">
+  <div class="sec-h reveal">
+    <span class="sec-lbl">&Agrave; propos</span>
+    <h2 class="sec-ttl">Qui suis-je&nbsp;?</h2>
+    <div class="sec-bar"></div>
+  </div>
+  <div class="about-layout">
+    <div class="about-card reveal">
+      <div class="about-mono">MC</div>
+      <span class="chip chip-b">BTS SIO 2026</span>
+      <span class="chip chip-sky">Option SLAM</span>
+      <a href="cv.pdf" download class="btn-primary" style="margin-top:1.5rem;font-size:.82rem">T&eacute;l&eacute;charger CV</a>
+    </div>
+    <div class="about-txt reveal" style="--d:.1s">
+      <h3>Bonjour, je m&rsquo;appelle <strong>Matteo</strong></h3>
+      <p>&Eacute;tudiant au <strong>Lyc&eacute;e Paul Claudel</strong> en 2<sup>e</sup>&nbsp;ann&eacute;e de <strong>BTS SIO option SLAM</strong>. Je me sp&eacute;cialise dans le d&eacute;veloppement d&rsquo;applications web robustes.</p>
+      <p>Passionn&eacute; par la <strong>qualit&eacute; du code</strong>, l&rsquo;organisation propre des projets et la <strong>s&eacute;curit&eacute; informatique</strong>, j&rsquo;aime transformer des besoins concrets en solutions efficaces et bien structur&eacute;es.</p>
+      <div class="ainfo-grid">
+        <div class="ainfo"><span class="ak">Formation</span><span class="av">BTS SIO SLAM</span></div>
+        <div class="ainfo"><span class="ak">&Eacute;tablissement</span><span class="av">Lyc&eacute;e Paul Claudel</span></div>
+        <div class="ainfo"><span class="ak">Session</span><span class="av">2026</span></div>
+        <div class="ainfo"><span class="ak">Sp&eacute;cialit&eacute;</span><span class="av">D&eacute;veloppement Web &amp; App</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="bts-box reveal" style="--d:.15s">
+    <h3>Qu&rsquo;est-ce que le <mark>BTS SIO</mark>&nbsp;?</h3>
+    <p>Formation en deux ans aux m&eacute;tiers de l&rsquo;informatique. Deux options&nbsp;:</p>
+    <div class="bts-opts">
+      <div class="bts-opt"><span class="bts-tag">SISR</span><h4>Syst&egrave;mes, Infrastructure &amp; R&eacute;seaux</h4><p>Administration r&eacute;seaux, s&eacute;curit&eacute; infrastructure.</p></div>
+      <div class="bts-opt bts-opt--on"><span class="bts-tag bts-tag--on">SLAM</span><h4>Solutions Logicielles &amp; Applications M&eacute;tiers</h4><p>D&eacute;veloppement d&rsquo;applications, BDD, architecture logicielle.</p><span class="bts-moi">&larr;&nbsp;Mon choix</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="sec">
+  <div class="sec-h reveal">
+    <span class="sec-lbl">Certifications</span>
+    <h2 class="sec-ttl">Certifications officielles</h2>
+    <div class="sec-bar"></div>
+  </div>
+  <div class="certs-row">
+    <div class="cert reveal">
+      <div class="cert-stripe cert-stripe--pix"></div>
+      <div class="cert-in">
+        <div class="cert-logo cert-logo--pix"><svg viewBox="0 0 60 60" fill="none"><rect width="60" height="60" rx="12" fill="url(#pg)"/><defs><linearGradient id="pg" x1="0" y1="0" x2="60" y2="60"><stop stop-color="#7c5fe6"/><stop offset="1" stop-color="#4f2fd4"/></linearGradient></defs><text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Arial Black,sans-serif" font-weight="900" font-size="17">PIX</text></svg></div>
+        <div class="cert-body">
+          <div class="cert-row"><h3>Certification Pix</h3><span class="cert-ok">&#10003;&nbsp;Valid&eacute;e</span></div>
+          <p class="cert-org">Minist&egrave;re de l&rsquo;&Eacute;ducation Nationale &mdash; France</p>
+          <p class="cert-desc">&Eacute;valuation officielle des <strong>comp&eacute;tences num&eacute;riques</strong> en 5 domaines : information, communication, cr&eacute;ation, s&eacute;curit&eacute; et environnement num&eacute;rique.</p>
+          <div class="cert-pills">
+            <span class="cpill cpill-b">Information</span>
+            <span class="cpill cpill-v">Communication</span>
+            <span class="cpill cpill-r">Cr&eacute;ation</span>
+            <span class="cpill cpill-o">S&eacute;curit&eacute;</span>
+            <span class="cpill cpill-g">Environnement</span>
+          </div>
+          <a href="https://pix.fr" target="_blank" rel="noopener" class="cert-lnk">pix.fr &rarr;</a>
+        </div>
+      </div>
+    </div>
+    <div class="cert reveal" style="--d:.1s">
+      <div class="cert-stripe cert-stripe--cnil"></div>
+      <div class="cert-in">
+        <div class="cert-logo cert-logo--cnil"><svg viewBox="0 0 60 60" fill="none"><rect width="60" height="60" rx="12" fill="url(#cg)"/><defs><linearGradient id="cg" x1="0" y1="0" x2="60" y2="60"><stop stop-color="#1a56db"/><stop offset="1" stop-color="#0a2e8a"/></linearGradient></defs><text x="50%" y="42%" dominant-baseline="middle" text-anchor="middle" fill="white" font-family="Arial Black,sans-serif" font-weight="900" font-size="13">CNIL</text><text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" fill="rgba(255,255,255,.7)" font-family="Arial,sans-serif" font-size="8">RGPD</text></svg></div>
+        <div class="cert-body">
+          <div class="cert-row"><h3>MOOC CNIL &mdash; Atelier RGPD</h3><span class="cert-ok">&#10003;&nbsp;Valid&eacute;</span></div>
+          <p class="cert-org">Commission Nationale Informatique et Libert&eacute;s</p>
+          <p class="cert-desc">Formation compl&egrave;te aux principes du <strong>RGPD</strong> : droits des personnes, obligations l&eacute;gales, s&eacute;curit&eacute; des donn&eacute;es et mise en conformit&eacute;.</p>
+          <div class="cert-mods">
+            <div class="cmod">&#10003;&nbsp;Bases du RGPD &amp; principes fondamentaux</div>
+            <div class="cmod">&#10003;&nbsp;Droits des personnes &amp; obligations</div>
+            <div class="cmod">&#10003;&nbsp;S&eacute;curit&eacute; des donn&eacute;es &amp; violations</div>
+            <div class="cmod">&#10003;&nbsp;Mise en conformit&eacute; (r&ocirc;le DPO)</div>
+          </div>
+          <a href="https://www.cnil.fr/fr/le-mooc-de-la-cnil-2eme-edition-disponible" target="_blank" rel="noopener" class="cert-lnk">cnil.fr &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPÉTENCES -->
+<section id="skills" class="sec">
+  <div class="sec-h reveal">
+    <span class="sec-lbl">Comp&eacute;tences</span>
+    <h2 class="sec-ttl">Comp&eacute;tences techniques</h2>
+    <div class="sec-bar"></div>
+  </div>
+  <h3 class="sk-sub reveal">Langages &amp; Technologies</h3>
+  <p class="sec-desc reveal" style="--d:.04s;margin-bottom:1.2rem">Langages de programmation et technologies utilis&eacute;s pour concevoir des sites web et des applications. Chaque langage a un r&ocirc;le pr&eacute;cis : structure, mise en forme, interactivit&eacute; ou gestion des donn&eacute;es.</p>
+  <div class="lang-grid reveal" style="--d:.08s">
+
+    <div class="lc" style="--lc:#E44D26">
+      <div class="lc-glow"></div>
+      <div class="lc-logo"><svg viewBox="0 0 452 520"><path fill="#e44d26" d="M41 460L0 0h451l-41 460-185 52z"/><path fill="#f16529" d="M226 472l149-41 35-394H226z"/><path fill="#ebebeb" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"/><path fill="#fff" d="M226 208v56h70l-7 73-63 17v58l116-32 9-172zm0-114v56h137l-4-56z"/></svg></div>
+      <span class="lc-name">HTML5</span>
+      <span class="lc-sub">S&eacute;mantique &amp; Structure</span>
+      <div class="lc-tags"><span>S&eacute;mantique</span><span>Forms</span><span>A11y</span></div>
+    </div>
+
+    <div class="lc" style="--lc:#1572B6">
+      <div class="lc-glow"></div>
+      <div class="lc-logo"><svg viewBox="0 0 452 520"><path fill="#1572b6" d="M41 460L0 0h451l-41 460-185 52z"/><path fill="#33a9dc" d="M226 472l149-41 35-394H226z"/><path fill="#fff" d="M226 208H94l5 58h127v56H105l5 58h111v73l-58-17-4-44H103l8 89 115 32v-1z"/><path fill="#ebebeb" d="M226 208v56h132l-4 58H226v56h118l-7 73-111 31v58l117-32 9-186H226z"/></svg></div>
+      <span class="lc-name">CSS3</span>
+      <span class="lc-sub">Mise en forme &amp; Anim.</span>
+      <div class="lc-tags"><span>Flexbox</span><span>Grid</span><span>Anim.</span></div>
+    </div>
+
+    <div class="lc" style="--lc:#c9a800">
+      <div class="lc-glow"></div>
+      <div class="lc-logo"><svg viewBox="0 0 630 630"><rect width="630" height="630" fill="#f7df1e"/><path d="M423 492c13 22 29 37 59 37 25 0 40-12 40-29 0-20-16-27-43-39l-15-6c-43-18-71-41-71-89 0-44 34-78 86-78 37 0 64 13 83 47l-45 29c-10-18-21-25-38-25-17 0-28 11-28 25 0 18 11 25 36 36l15 6c50 22 79 44 79 94 0 54-42 82-99 82-55 0-91-26-108-61zm-209 5c9 17 18 31 38 31 19 0 32-8 32-37V278h59v216c0 61-36 89-88 89-47 0-75-25-89-54z"/></svg></div>
+      <span class="lc-name">JavaScript</span>
+      <span class="lc-sub">Interactivit&eacute; &amp; AJAX</span>
+      <div class="lc-tags"><span>ES6+</span><span>DOM</span><span>AJAX</span></div>
+    </div>
+
+    <div class="lc" style="--lc:#6181b6">
+      <div class="lc-glow"></div>
+      <div class="lc-logo"><svg viewBox="0 0 128 128"><ellipse cx="64" cy="64" rx="64" ry="64" fill="#6181b6"/><path fill="#fff" d="M28 80l8.9-45h16.5c7.4 0 12.5 1.5 15.4 4.5s3.7 7.1 2.5 12.4c-.4 1.9-1.1 3.7-2 5.4a19 19 0 01-3.7 4.6c-1.7 1.5-3.5 2.6-5.6 3.4-2 .8-4.6 1.2-7.6 1.2H43.2L40.5 80H28zm16.5-17h5.8c3.5 0 6-.7 7.5-2 1.5-1.4 2.6-3.4 3.2-6.2.6-2.7.3-4.6-.8-5.8-1.1-1.2-3.2-1.8-6.3-1.8H49L44.5 63zm30.5 17L84 35h12.5l-1.4 7c2-2.7 4-4.6 6.2-5.8 2.2-1.2 4.6-1.8 7.1-1.8 4.6 0 7.8 1.6 9.5 4.8 1.7 3.2 1.8 7.6.2 13.2-1.7 6-4.4 10.7-8 14.1-3.6 3.4-7.7 5.1-12.2 5.1-2.1 0-3.9-.4-5.4-1.1-1.5-.7-2.7-1.8-3.6-3.3L85.5 80H75zm15.6-12.5c1.8 0 3.5-.8 5.1-2.3s2.8-4 3.6-7.3c.7-3 .6-5.2-.3-6.6-.9-1.4-2.4-2.1-4.4-2.1-1.9 0-3.6.8-5.2 2.3s-2.8 4-3.6 7.3c-.7 3-.5 5.3.4 6.7.9 1.3 2.3 2 4.4 2z"/></svg></div>
+      <span class="lc-name">PHP</span>
+      <span class="lc-sub">C&ocirc;t&eacute; serveur &amp; logique m&eacute;tier</span>
+      <div class="lc-tags"><span>MVC</span><span>Sessions</span></div>
+    </div>
+
+    <div class="lc" style="--lc:#00758F">
+      <div class="lc-glow"></div>
+      <div class="lc-logo"><svg viewBox="0 0 128 128"><path fill="#00758f" d="M116.9 98c-6.9-.2-12.1.5-16.6 2.3-1.3.5-3.3.6-3.5 2.1.7.7.8 1.8 1.4 2.7 1.1 1.7 2.9 4.1 4.5 5.3 1.8 1.3 3.6 2.8 5.5 3.9 3.4 2 7.1 3.2 10.3 5.3 1.9 1.2 3.8 2.7 5.7 4.1.9.7 1.5 1.7 2.7 2.1v-.2c-.6-.8-.8-1.9-1.4-2.9-1.4-.6-1.8-2.1-2.9-3.1-2.8-3.8-6.2-7.1-9.9-9.9-1-.7-3.5-1.8-3.9-3.1l-.1-.3c.8-.1 1.7-.4 2.4-.5 1.2-.2 2.3-.2 3.5-.5 1.4-.4 2.8-1 4.1-1.7V98z"/><path fill="#00758f" d="M19.1 74.3L0 85.5l.1 14.3 9.5-5.5 9.5-5.5.1-14.5c0-8 0-14.5-.1-14.4z"/><path fill="#00758f" d="M64 46.3L44.9 57.6v28.7l19.1-11z"/><path fill="#f29111" d="M93.3 30.5L74.1 19.2 64 13.3l-19.1 11 19.1 11.1 19.2-11.1L93.3 41.6V30.5zM44.9 57.6L25.8 46.3v22.3l19.1 11V57.6zM64 85.2L44.9 96.5v11.1L64 119.7l19.1-11.1V97.5L64 85.2z"/><path fill="#00758f" d="M83.1 57.6v21.9l19.1-11V46.3L83.1 57.6z"/></svg></div>
+      <span class="lc-name">SQL / MySQL</span>
+      <span class="lc-sub">Bases de donn&eacute;es</span>
+      <div class="lc-tags"><span>Jointures</span><span>MCD/MLD</span></div>
+    </div>
+
+    <div class="lc" style="--lc:#3776AB">
+      <div class="lc-glow"></div>
+      <div class="lc-logo"><svg viewBox="0 0 128 128"><linearGradient id="pyG1" x1="70.3" y1="1237.5" x2="170.7" y2="1151.1" gradientTransform="matrix(.563 0 0 .568 -29.2 -701.8)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5a9fd4"/><stop offset="1" stop-color="#306998"/></linearGradient><linearGradient id="pyG2" x1="209.5" y1="1098.8" x2="173.1" y2="1149.5" gradientTransform="matrix(.563 0 0 .568 -29.2 -701.8)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffd43b"/><stop offset="1" stop-color="#ffe873"/></linearGradient><path fill="url(#pyG1)" d="M63.4 2c-4.2 0-8.3.4-11.8 1-10.5 1.8-12.3 5.7-12.3 12.8v9.4h24.7v3.1H29.9c-7.2 0-13.5 4.3-15.4 12.5-2.3 9.4-2.4 15.3 0 25.1 1.8 7.3 5.9 12.5 13.1 12.5h8.5V67.2c0-8.2 7-15.3 15.4-15.3h24.7c6.9 0 12.3-5.7 12.3-12.5V15.8c0-6.7-5.6-11.7-12.3-12.8C72.7 2.3 67.6 2 63.4 2zm-13.4 7.6c2.6 0 4.6 2.1 4.6 4.7s-2.1 4.7-4.6 4.7-4.6-2.1-4.6-4.7 2-4.7 4.6-4.7z"/><path fill="url(#pyG2)" d="M91.7 28.4v11c0 8.5-7.2 15.7-15.4 15.7H51.6c-6.8 0-12.3 5.8-12.3 12.5v23.5c0 6.7 5.8 10.6 12.3 12.5 7.8 2.3 15.3 2.7 24.7 0 6.2-1.8 12.3-5.4 12.3-12.5v-9.4H63.9v-3.1h37c7.2 0 9.9-5 12.3-12.5 2.6-7.7 2.5-15.2 0-25.1-1.8-7.1-5.2-12.5-12.3-12.5H91.7zm-14 59.5c2.6 0 4.6 2.1 4.6 4.7s-2.1 4.7-4.6 4.7-4.6-2.1-4.6-4.7 2.1-4.7 4.6-4.7z"/></svg></div>
+      <span class="lc-name">Python</span>
+      <span class="lc-sub">Scripts &amp; Automatisation</span>
+      <div class="lc-tags"><span>Scripts</span><span>Automatisation</span></div>
+    </div>
+
+    <div class="lc" style="--lc:#9B4F96">
+      <div class="lc-glow"></div>
+      <div class="lc-logo"><svg viewBox="0 0 128 128"><path fill="#9b4f96" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"/><path fill="#68217a" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z"/><path fill="#fff" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5C91.7 32.6 79 24.5 64 24.5 42.3 24.5 24.5 42.2 24.5 64S42.3 103.5 64 103.5c15 0 27.8-8 34.3-19.8l-13-7.6z"/></svg></div>
+      <span class="lc-name">C#</span>
+      <span class="lc-sub">Applications .NET</span>
+      <div class="lc-tags"><span>WinForms</span><span>POO</span></div>
+    </div>
+
+    <div class="lc" style="--lc:#FF6B35">
+      <div class="lc-glow"></div>
+      <div class="lc-logo"><svg viewBox="0 0 128 128"><rect width="128" height="128" rx="22" fill="#fff3ee"/><circle cx="64" cy="64" r="44" fill="none" stroke="#FF6B35" stroke-width="6"/><text x="64" y="72" text-anchor="middle" fill="#FF6B35" font-family="Arial Black,sans-serif" font-weight="900" font-size="30">W</text></svg></div>
+      <span class="lc-name">WAMP</span>
+      <span class="lc-sub">Environnement de d&eacute;veloppement local</span>
+      <div class="lc-tags"><span>Apache</span><span>MySQL</span><span>PHP</span></div>
+    </div>
+
+  </div>
+
+  <h3 class="sk-sub reveal" style="--d:.12s">Outils &amp; Environnements &#9881;&#65039;</h3>
+  <p class="sec-desc reveal" style="--d:.14s;margin-bottom:1.1rem">Logiciels et m&eacute;thodes utilis&eacute;s au quotidien pour coder, g&eacute;rer les projets et travailler en &eacute;quipe.</p>
+  <div class="tools-grid reveal" style="--d:.17s">
+    <div class="tc"><span>&#128295;</span>Git / GitHub <small style="display:block;font-size:.65rem;color:var(--txs)">Gestion de versions</small></div>
+    <div class="tc"><span>&#128187;</span>VS Code <small style="display:block;font-size:.65rem;color:var(--txs)">Éditeur de code</small></div>
+    <div class="tc"><span>&#127959;</span>Visual Studio <small style="display:block;font-size:.65rem;color:var(--txs)">IDE Microsoft (C#)</small></div>
+    <div class="tc"><span>&#128452;</span>MariaDB / MySQL <small style="display:block;font-size:.65rem;color:var(--txs)">Bases de données</small></div>
+    <div class="tc"><span>&#128208;</span>PhpMyAdmin <small style="display:block;font-size:.65rem;color:var(--txs)">Interface BDD visuelle</small></div>
+    <div class="tc"><span>&#128202;</span>UML / MCD / MLD <small style="display:block;font-size:.65rem;color:var(--txs)">Schémas de conception</small></div>
+    <div class="tc tc-hl"><span>&#127963;</span>Architecture MVC <small style="display:block;font-size:.65rem;color:#93c5fd">Organisation du code</small></div>
+    <div class="tc tc-hl"><span>&#127760;</span>XAMPP / WAMP <small style="display:block;font-size:.65rem;color:#93c5fd">Serveur local de dev.</small></div>
+  </div>
+</section>
+
+<!-- PARCOURS -->
+<section id="resume" class="sec">
+  <div class="sec-h reveal">
+    <span class="sec-lbl">Parcours</span>
+    <h2 class="sec-ttl">Formation &amp; Exp&eacute;riences</h2>
+    <div class="sec-bar"></div>
+  </div>
+  <div class="resume-cols">
+    <div class="rcol">
+      <h3 class="rcol-h">Formation</h3>
+      <div class="tl">
+        <div class="tl-i reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-per">2024 &ndash; 2026</span>
+            <h4>BTS SIO &ndash; Option SLAM</h4>
+            <p class="tl-org">Lyc&eacute;e Paul Claudel</p>
+            <p>D&eacute;veloppement d&rsquo;applications web, BDD, architecture MVC, Git, veille techno.</p>
+          </div>
+        </div>
+        <div class="tl-i reveal" style="--d:.1s">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-per">2021 &ndash; 2024</span>
+            <h4>Baccalaur&eacute;at Professionnel &mdash; Commerce MCVA</h4>
+            <p class="tl-org">Lyc&eacute;e Jean Mac&eacute; &mdash; Chauny</p>
+            <p>Bac Pro Commerce option <strong>MCVA</strong> (Mercatique, Commerce et Vente en Alimentation) &mdash; relation client, gestion commerciale et techniques de vente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="rcol">
+      <h3 class="rcol-h">Exp&eacute;riences</h3>
+      <div class="tl">
+        <div class="tl-i reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-per">Stage &middot; 5 semaines &middot; 2025</span>
+            <h4>D&eacute;veloppeur Web</h4>
+            <p class="tl-org">Entreprise &mdash; Stage 1&egrave;re ann&eacute;e</p>
+            <p>D&eacute;veloppement application interne, documentation technique.</p>
+            <a href="stage1.pdf" download class="tl-dl">Rapport de stage</a>
+          </div>
+        </div>
+        <div class="tl-i reveal" style="--d:.1s">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-per">Stage &middot; 5 semaines &middot; 2026</span>
+            <h4>D&eacute;veloppeur Full-Stack</h4>
+            <p class="tl-org">Entreprise &mdash; Stage 2&egrave;me ann&eacute;e</p>
+            <p>D&eacute;veloppement de fonctionnalit&eacute;s, maintenance corrective, Git.</p>
+            <a href="stage2.pdf" download class="tl-dl">Rapport de stage</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETS -->
+<section id="projects" class="sec">
+  <div class="sec-h reveal">
+    <span class="sec-lbl">Projets</span>
+    <h2 class="sec-ttl">Mes projets</h2>
+    <div class="sec-bar"></div>
+    <p class="sec-desc">Projets d&eacute;velopp&eacute;s en BTS SIO SLAM &mdash; cours, ateliers, stages.</p>
+  </div>
+  <div class="pf-row reveal">
+    <button class="pfbtn active" data-f="all">Tous</button>
+    <button class="pfbtn" data-f="web">Site Web</button>
+    <button class="pfbtn" data-f="app">Application</button>
+  </div>
+  <div class="pgrid">
+
+<!-- GESTMEGOT -->
+    <article class="pcard reveal" data-cat="app" style="--d:0s">
+      <div class="pcard-top">
+        <span class="pcard-num">01</span>
+        <div class="carousel" data-id="gestmegot">
+          <div class="car-track">
+            <div class="car-slide">
+              <img src="Images/getsmegot v1.png" alt="GestMeGot v1"/>
+            </div>
+            <div class="car-slide">
+              <img src="Images/getsmegot v2.png" alt="GestMeGot v2"/>
+            </div>
+            <div class="car-slide">
+              <img src="Images/getsmegot v3.png" alt="GestMeGot v3"/>
+            </div>
+            <div class="car-slide">
+              <img src="Images/getsmegot v4.png" alt="GestMeGot v4"/>
+            </div>
+            <div class="car-slide">
+              <img src="Images/getsmegot v5.png" alt="GestMeGot v5"/>
+            </div>
+          </div>
+          <button class="car-btn car-prev">&#8592;</button>
+          <button class="car-btn car-next">&#8594;</button>
+          <div class="car-dots"></div>
+        </div>
+        <div class="pcard-hover-cta"><a href="#" id="openGestmegot" class="plink plink-main">Voir le projet &rarr;</a></div>
+        <span class="pbadge pbadge-blue">Application MVC</span>
+      </div>
+      <div class="pcard-body">
+        <div class="pcard-meta-row">
+          <span class="pcat">PHP &middot; MySQL &middot; MVC</span>
+          <span class="prole prole-solo">Solo</span>
+        </div>
+        <h3>GestMeGot</h3>
+        <p>Application web de gestion organis&eacute;e en couches s&eacute;par&eacute;es&nbsp;: ajout, modification et suppression de donn&eacute;es, gestion des r&ocirc;les admin &amp; utilisateur, connexion s&eacute;curis&eacute;e.</p>
+        <div class="ptags"><span>PHP</span><span>MySQL</span><span>MVC</span></div>
+        <div class="pcard-foot">
+          <a href="#" id="openGestmegotBtn" class="plink plink-main">D&eacute;tail du projet</a>
+          <span class="pcard-year">2025</span>
+        </div>
+      </div>
+    </article>
+
+<!-- VÉLOLAON featured -->
+    <article class="pcard pcard-feat reveal" data-cat="web app" style="--d:0.08s">
+      <div class="pcard-top">
+        <span class="pcard-num">02</span>
+        <div class="carousel" data-id="velolaon">
+          <div class="car-track">
+            <div class="car-slide">
+              <img src="Images/velolaon.png" alt="VéloLaon"/>
+            </div>
+          </div>
+          <button class="car-btn car-prev">&#8592;</button>
+          <button class="car-btn car-next">&#8594;</button>
+          <div class="car-dots"></div>
+        </div>
+        <div class="pcard-hover-cta"><a href="#" id="openVelolaon" class="plink plink-main">Voir le projet &rarr;</a></div>
+        <span class="pbadge pbadge-feat">Projet phare</span>
+      </div>
+      <div class="pcard-body">
+        <div class="pcard-meta-row">
+          <span class="pcat">PHP &middot; MySQL &middot; Leaflet.js &middot; AJAX</span>
+          <span class="prole prole-team">Équipe</span>
+        </div>
+        <h3>V&eacute;loLaon <span class="new-lbl">Nouveau</span></h3>
+        <p>Application de <strong>v&eacute;los en libre-service</strong> pour la ville de Laon &mdash; carte interactive des stations, disponibilit&eacute; en temps r&eacute;el, r&eacute;servation en ligne et espace de gestion administrateur.</p>
+        <div class="velo-feat">
+          <div class="vf">Carte interactive (Leaflet.js)</div>
+          <div class="vf">Mise &agrave; jour temps r&eacute;el (AJAX)</div>
+          <div class="vf">Espace utilisateur + admin</div>
+          <div class="vf">Authentification s&eacute;curis&eacute;e</div>
+        </div>
+        <div class="ptags"><span>PHP</span><span>MySQL</span><span>Leaflet.js</span><span>AJAX</span><span>MVC</span></div>
+        <div class="pcard-foot">
+          <a href="#" id="openVelolaonBtn" class="plink plink-main">D&eacute;tail du projet</a>
+          <span class="pcard-year">2025–26</span>
+        </div>
+      </div>
+    </article>
+
+<!-- LE MONDE ET VACHE -->
+    <article class="pcard reveal" data-cat="web" style="--d:.16s">
+      <div class="pcard-top">
+        <span class="pcard-num">03</span>
+        <div class="carousel" data-id="mondevache">
+          <div class="car-track">
+            <div class="car-slide">
+              <img src="images/le monde est vache index.png" alt="Page d'accueil"/>
+              <span class="car-caption">Page d&rsquo;accueil</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/connexion lmdv.png" alt="Page connexion"/>
+              <span class="car-caption">Page connexion</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/panier lmdv.png" alt="Panier d'achat"/>
+              <span class="car-caption">Panier d&rsquo;achat</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/contact lmdv.png" alt="Page contact"/>
+              <span class="car-caption">Page contact</span>
+            </div>
+          </div>
+          <button class="car-btn car-prev">&#8592;</button>
+          <button class="car-btn car-next">&#8594;</button>
+          <div class="car-dots"></div>
+        </div>
+        <div class="pcard-hover-cta"><a href="#" id="openMondevache" class="plink plink-main">Voir le projet &rarr;</a></div>
+        <span class="pbadge pbadge-teal">Site e-commerce</span>
+      </div>
+      <div class="pcard-body">
+        <div class="pcard-meta-row">
+          <span class="pcat">HTML &middot; CSS &middot; JavaScript</span>
+          <span class="prole prole-team">Équipe</span>
+        </div>
+        <h3>Le monde est vache</h3>
+        <p>Site de <strong>vente de v&ecirc;tements</strong> avec catalogue produits, fiches articles, panier d&rsquo;achat et navigation fluide.</p>
+        <div class="ptags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <div class="pcard-foot">
+          <a href="#" id="openMondevacheBtn" class="plink plink-main">D&eacute;tail du projet</a>
+          <span class="pcard-year">2024–25</span>
+        </div>
+      </div>
+    </article>
+
+<!-- CHATBOT -->
+    <article class="pcard reveal" data-cat="web app" style="--d:0.24s">
+      <div class="pcard-top">
+        <span class="pcard-num">04</span>
+        <div class="carousel" data-id="chatbot">
+          <div class="car-track">
+            <div class="car-slide">
+              <img src="images/chatbot1.png" alt="Interface du chatbot"/>
+              <span class="car-caption">Interface du chatbot</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/chatbot2.png" alt="Formulaire de contact bot"/>
+              <span class="car-caption">Formulaire de contact</span>
+            </div>
+          </div>
+          <button class="car-btn car-prev">&#8592;</button>
+          <button class="car-btn car-next">&#8594;</button>
+          <div class="car-dots"></div>
+        </div>
+        <div class="pcard-hover-cta"><a href="#" id="openChatbot" class="plink plink-main">Voir le projet &rarr;</a></div>
+        <span class="pbadge pbadge-green">Stage 1&egrave;re ann&eacute;e</span>
+      </div>
+      <div class="pcard-body">
+        <div class="pcard-meta-row">
+          <span class="pcat">JavaScript &middot; EmailJS</span>
+          <span class="prole prole-stage">Stage</span>
+        </div>
+        <h3>ChatBot Immo</h3>
+        <p>Assistant virtuel pour agence immobili&egrave;re &mdash; guide les visiteurs via des <strong>questions-r&eacute;ponses branch&eacute;es</strong> et envoie automatiquement un e-mail &agrave; l&rsquo;agence.</p>
+        <div class="ptags"><span>JavaScript</span><span>HTML</span><span>EmailJS</span></div>
+        <div class="pcard-foot">
+          <a href="#" id="openChatbotBtn" class="plink plink-main">D&eacute;tail du projet</a>
+          <span class="pcard-year">2025</span>
+        </div>
+      </div>
+    </article>
+
+<!-- TRACE MOI SI TU PEUX (Stage 2) -->
+    <article class="pcard reveal" style="--d:0.32s" data-cat="web">
+      <div class="pcard-top">
+        <div class="carousel" data-id="tracemoi">
+          <div class="car-track">
+            <div class="car-slide">
+              <img src="images/image6.png" alt="Menu principal — Trace moi si tu peux"/>
+              <span class="car-caption">Menu principal</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/image1.png" alt="Fakebook — fil d'actualité mode sombre"/>
+              <span class="car-caption">Fakebook — fil d&rsquo;actualit&eacute; (mode sombre)</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/image2.png" alt="Fakebook — fil d'actualité mode clair"/>
+              <span class="car-caption">Fakebook — fil d&rsquo;actualit&eacute; (mode clair)</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/image8.png" alt="Fakebook — page profil mode clair"/>
+              <span class="car-caption">Fakebook — page profil</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/image4.png" alt="Fakestagram — grille de profil"/>
+              <span class="car-caption">Fakestagram — grille profil</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/image5.png" alt="Fakestagram — fil d'actualité"/>
+              <span class="car-caption">Fakestagram — fil d&rsquo;actualit&eacute;</span>
+            </div>
+            <div class="car-slide">
+              <img src="images/image salle de stage.jpg" alt="Salle de stage — Ligue de l'enseignement"/>
+              <span class="car-caption">Salle de stage &mdash; Ligue de l&rsquo;enseignement</span>
+            </div>
+          </div>
+          <button class="car-btn car-prev">&#8592;</button>
+          <button class="car-btn car-next">&#8594;</button>
+          <div class="car-dots"></div>
+        </div>
+        <span class="pbadge pbadge-blue">Stage 2&egrave;me ann&eacute;e</span>
+        <span class="pcard-num">05</span>
+        <div class="pcard-hover-cta"><a href="#" id="openTracemoi" class="plink plink-main">Voir le projet &rarr;</a></div>
+      </div>
+      <div class="pcard-body">
+        <div class="pcard-meta-row">
+          <span class="pcat">C# &middot; WinForms &middot; .NET</span>
+          <span class="prole prole-stage">Stage</span>
+        </div>
+        <h3>Trace moi si tu peux</h3>
+        <p>Application <strong>Windows</strong> simulant un r&eacute;seau social, d&eacute;velopp&eacute;e en stage &agrave; la Ligue de l&rsquo;enseignement &mdash; profils, publications, likes et mode sombre.</p>
+        <div class="ptags"><span>C#</span><span>WinForms</span><span>JSON</span><span>.NET</span></div>
+        <div class="pcard-foot">
+          <a href="#" id="openTracemoiBtn" class="plink plink-main">D&eacute;tail du projet</a>
+          <span class="pcard-year">2026</span>
+        </div>
+      </div>
+    </article>
+
+  </div><!-- /pgrid -->
+
+</section>
+
+<!-- E4 -->
+<section id="e4" class="sec">
+  <div class="sec-h reveal">
+    <span class="sec-lbl">&Eacute;preuve E4</span>
+    <h2 class="sec-ttl">Tableau de synth&egrave;se E4</h2>
+    <div class="sec-bar"></div>
+    <p class="sec-desc">Suivi officiel des comp&eacute;tences acquises &mdash; BTS SIO SLAM.</p>
+  </div>
+  <div class="e4-top reveal">
+    <p style="font-size:.86rem;color:var(--txm);margin-bottom:1rem;max-width:70ch">Ce tableau recense les comp&eacute;tences du BTS SIO SLAM valid&eacute;es &agrave; travers chaque projet. Chaque colonne correspond &agrave; une comp&eacute;tence du r&eacute;f&eacute;rentiel officiel &eacute;valu&eacute;e lors de l&rsquo;&eacute;preuve E4.</p>
+    <button onclick="window.print()" class="btn-outline-blue">Imprimer le tableau E4</button>
+  </div>
+  <div class="twrap reveal" style="--d:.1s">
+    <table id="e4t">
+      <thead><tr>
+        <th class="th-r">R&eacute;alisations</th>
+        <th>G&eacute;rer le<br><small>patrimoine informatique</small></th>
+        <th>R&eacute;pondre aux<br><small>incidents &amp; demandes</small></th>
+        <th>D&eacute;velopper<br><small>la pr&eacute;sence en ligne</small></th>
+        <th>Travailler<br><small>en mode projet</small></th>
+        <th>Mettre &agrave; disposition<br><small>des services</small></th>
+        <th>Organiser son<br><small>d&eacute;veloppement pro.</small></th>
+      </tr></thead>
+      <tbody>
+        <tr><td class="td-r"><strong>GestMeGot</strong><em>Mars 2025 &middot; PHP/MySQL/MVC</em></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck">&#8211;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td></tr>
+        <tr><td class="td-r"><strong>V&eacute;loLaon</strong><em>2025-26 &middot; PHP/MySQL/JS/Leaflet</em></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td></tr>
+        <tr><td class="td-r"><strong>Le monde et vache</strong><em>Oct 2024 &ndash; Mai 2025 &middot; Web</em></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck">&#8211;</span></td></tr>
+        <tr><td class="td-r"><strong>ChatBot Immo</strong><em>2025 &middot; JS/EmailJS &mdash; Stage 1</em></td><td><span class="ck">&#8211;</span></td><td><span class="ck">&#8211;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td></tr>
+        <tr><td class="td-r"><strong>Trace moi si tu peux</strong><em>12 jan. 2026 &ndash; 13 f&eacute;vr. 2026 &middot; C#</em></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck">&#8211;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td></tr>
+        <tr><td class="td-r"><strong>Portfolio BTS SIO</strong><em>2025-2026 &middot; HTML/CSS/JS</em></td><td><span class="ck">&#8211;</span></td><td><span class="ck">&#8211;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td><td><span class="ck ck1">&#10003;</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- VEILLE -->
+<section id="veille" class="sec">
+  <div class="sec-h reveal">
+    <span class="sec-lbl">Veille technologique</span>
+    <h2 class="sec-ttl">Veille technologique &mdash; IA</h2>
+    <div class="sec-bar"></div>
+    <p class="sec-desc">Suivi de l&rsquo;&eacute;volution de l&rsquo;Intelligence Artificielle &mdash; D&eacute;c. 2025 &rarr; Mars 2026.</p>
+  </div>
+  <div class="veille-wrap reveal">
+
+    <div class="veille-problo">
+      <div class="vp-icon">?</div>
+      <div>
+        <span class="vp-label">Probl&eacute;matique de veille</span>
+        <p class="vp-text">&laquo;&nbsp;Quelle est la place de l&rsquo;IA dans notre soci&eacute;t&eacute;, et quels sont ses impacts sur le d&eacute;veloppement logiciel, la s&eacute;curit&eacute; et l&rsquo;avenir du travail&nbsp;?&nbsp;&raquo;</p>
+      </div>
+      <div class="vp-stats">
+        <div class="vps"><span class="vps-n">4</span><span class="vps-k">mois</span></div>
+        <div class="vps"><span class="vps-n">9</span><span class="vps-k">sources</span></div>
+        <div class="vps"><span class="vps-n">3</span><span class="vps-k">th&egrave;mes</span></div>
+      </div>
+    </div>
+
+    <div class="veille-grid">
+
+      <!-- THÈME 1 -->
+      <div class="vtheme reveal" style="--d:.08s">
+        <div class="vtheme-head">
+          <span class="vt-num">01</span>
+          <div>
+            <h3 class="vt-title">IA &amp; D&eacute;veloppement logiciel</h3>
+            <span class="vt-sub">Comment l&rsquo;IA transforme le m&eacute;tier de d&eacute;veloppeur</span>
+          </div>
+        </div>
+        <div class="vtheme-arts">
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-press">Le Monde</span>
+              <span class="vdate">Jan. 2026</span>
+            </div>
+            <p class="vart2-title">GitHub Copilot et les outils IA changent-ils vraiment la mani&egrave;re de coder&nbsp;?</p>
+            <a href="https://www.lemonde.fr" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-blog">Dev.to</span>
+              <span class="vdate">F&eacute;vr. 2026</span>
+            </div>
+            <p class="vart2-title">Retour d&rsquo;exp&eacute;rience : 6 mois &agrave; coder avec ChatGPT au quotidien</p>
+            <a href="https://dev.to" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-mag">01net</span>
+              <span class="vdate">Mars 2026</span>
+            </div>
+            <p class="vart2-title">L&rsquo;IA g&eacute;n&eacute;rative va-t-elle remplacer les d&eacute;veloppeurs juniors&nbsp;?</p>
+            <a href="https://www.01net.com" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- THÈME 2 -->
+      <div class="vtheme reveal" style="--d:.14s">
+        <div class="vtheme-head">
+          <span class="vt-num">02</span>
+          <div>
+            <h3 class="vt-title">IA &amp; Cybers&eacute;curit&eacute;</h3>
+            <span class="vt-sub">Nouvelles menaces et nouvelles d&eacute;fenses</span>
+          </div>
+        </div>
+        <div class="vtheme-arts">
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-inst">ANSSI</span>
+              <span class="vdate">D&eacute;c. 2025</span>
+            </div>
+            <p class="vart2-title">Panorama des menaces informatiques 2025 : le r&ocirc;le croissant de l&rsquo;IA dans les attaques</p>
+            <a href="https://www.ssi.gouv.fr" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-press">Numerama</span>
+              <span class="vdate">F&eacute;vr. 2026</span>
+            </div>
+            <p class="vart2-title">Deepfakes et phishing augment&eacute; par l&rsquo;IA : comment s&rsquo;en prot&eacute;ger&nbsp;?</p>
+            <a href="https://www.numerama.com" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-mag">ZDNet</span>
+              <span class="vdate">Mars 2026</span>
+            </div>
+            <p class="vart2-title">IA et cybers&eacute;curit&eacute; : quand les attaquants et les d&eacute;fenseurs utilisent les m&ecirc;mes outils</p>
+            <a href="https://www.zdnet.fr" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- THÈME 3 -->
+      <div class="vtheme reveal" style="--d:.2s">
+        <div class="vtheme-head">
+          <span class="vt-num">03</span>
+          <div>
+            <h3 class="vt-title">IA &amp; Soci&eacute;t&eacute;</h3>
+            <span class="vt-sub">Impacts &eacute;thiques, emploi et r&eacute;glementation</span>
+          </div>
+        </div>
+        <div class="vtheme-arts">
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-inst">CNIL</span>
+              <span class="vdate">D&eacute;c. 2025</span>
+            </div>
+            <p class="vart2-title">IA Act europ&eacute;en : ce qui change pour les entreprises fran&ccedil;aises en 2026</p>
+            <a href="https://www.cnil.fr" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-press">Le Figaro</span>
+              <span class="vdate">Jan. 2026</span>
+            </div>
+            <p class="vart2-title">L&rsquo;intelligence artificielle, nouvelle menace pour l&rsquo;emploi des jeunes dipl&ocirc;m&eacute;s&nbsp;?</p>
+            <a href="https://www.lefigaro.fr" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+          <div class="vart2">
+            <div class="vart2-top">
+              <span class="vsrc vsrc-inst">Vie Publique</span>
+              <span class="vdate">Mars 2026</span>
+            </div>
+            <p class="vart2-title">R&eacute;glementation de l&rsquo;IA : o&ugrave; en est la France par rapport &agrave; ses voisins europ&eacute;ens&nbsp;?</p>
+            <a href="https://www.vie-publique.fr" target="_blank" rel="noopener" class="vart2-link">Lire l&rsquo;article &#8599;</a>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /veille-grid -->
+  </div><!-- /veille-wrap -->
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="sec">
+  <div class="sec-h reveal">
+    <span class="sec-lbl">Contact</span>
+    <h2 class="sec-ttl">Prenons contact</h2>
+    <div class="sec-bar"></div>
+  </div>
+  <div class="contact-layout">
+    <div class="contact-info reveal">
+      <h3>Envoyez-moi un message</h3>
+      <div class="ci-list">
+        <div class="ci"><div><strong>Localisation</strong><p>Laon, Aisne &mdash; France</p></div></div>
+        <div class="ci"><div><strong>Email</strong><p><a href="/cdn-cgi/l/email-protection#6d000c19190802430e0c001d08000803021e022d08150c001d0108430e0200"><span class="__cf_email__" data-cfemail="e489859090818bca878589948189818a8b978ba4819c8589948881ca878b89">[email&#160;protected]</span></a></p></div></div>
+        <div class="ci"><div><strong>GitHub</strong><p><a href="https://github.com/matteo-campemenoso" target="_blank">github.com/matteo-campemenoso</a></p></div></div>
+        <div class="ci"><div><strong>LinkedIn</strong><p><a href="https://linkedin.com/in/matteo-campemenoso" target="_blank">linkedin.com/in/matteo-campemenoso</a></p></div></div>
+      </div>
+    </div>
+    <form class="contact-form reveal" id="contactForm" style="--d:.1s">
+      <div class="frow">
+        <div class="fg"><label>Nom</label><input type="text" placeholder="Votre nom" required/></div>
+        <div class="fg"><label>Email</label><input type="email" placeholder="email@example.com" required/></div>
+      </div>
+      <div class="fg"><label>Sujet</label><input type="text" placeholder="Sujet de votre message" required/></div>
+      <div class="fg"><label>Message</label><textarea rows="5" placeholder="Votre message..." required></textarea></div>
+      <button type="submit" class="btn-primary">Envoyer le message</button>
+      <p class="fsuccess" id="fsuccess">&#10003; Message envoy&eacute; !</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+
+<!-- MODALE — GESTMEGOT -->
+<div class="modal-overlay" id="modalGestmegot" role="dialog" aria-modal="true">
+  <div class="modal-panel">
+    <button class="modal-close" data-modal="modalGestmegot" aria-label="Fermer">&#x2715;</button>
+    <div class="modal-scroll">
+
+      <div class="modal-hero">
+        <div class="modal-badges">
+          <span class="mbadge mbadge-blue">&#128187;&nbsp;PHP / MySQL / MVC</span>
+          <span class="mbadge mbadge-blue">Projet en classe &mdash; travail solo</span>
+        </div>
+        <h2 class="modal-title">GestMeGot</h2>
+        <div class="modal-meta">
+          <div class="mm"><b>PHP · MySQL · MVC</b><span>Stack</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>3 semaines</b><span>Dur&eacute;e</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>2025</b><span>Ann&eacute;e</span></div>
+        </div>
+        <div class="modal-docs"><a href="docs/gestmegot-cahier-charges.pdf" download class="mdoc-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/></svg>Cahier des charges</a></div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Captures d&rsquo;&eacute;cran</span>
+        <h3 class="modal-sh">Galerie du projet</h3>
+        <div class="modal-carousel" id="car_modalGestmegot">
+          <div class="mc-track" id="track_modalGestmegot">
+            <div class="mc-slide">
+              <img src="Images/getsmegot v1.png" alt="GestMeGot v1"/>
+              <div class="mc-slide-caption">Version 1</div>
+            </div>
+            <div class="mc-slide">
+              <img src="Images/getsmegot v2.png" alt="GestMeGot v2"/>
+              <div class="mc-slide-caption">Version 2</div>
+            </div>
+            <div class="mc-slide">
+              <img src="Images/getsmegot v3.png" alt="GestMeGot v3"/>
+              <div class="mc-slide-caption">Version 3</div>
+            </div>
+            <div class="mc-slide">
+              <img src="Images/getsmegot v4.png" alt="GestMeGot v4"/>
+              <div class="mc-slide-caption">Version 4</div>
+            </div>
+            <div class="mc-slide">
+              <img src="Images/getsmegot v5.png" alt="GestMeGot v5"/>
+              <div class="mc-slide-caption">Version 5</div>
+            </div>
+          </div>
+          <button class="mc-btn mc-prev" aria-label="Pr&eacute;c&eacute;dent">&#8592;</button>
+          <button class="mc-btn mc-next" aria-label="Suivant">&#8594;</button>
+          <div class="mc-dots" id="dots_modalGestmegot"></div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Contexte</span>
+        <h3 class="modal-sh">Contexte scolaire</h3>
+        <div class="modal-company">
+          <div class="mc-text"><div class="company-name-row">
+              <div class="company-logo-mono">P</div>
+              <div><h4 class="company-name">Lyc&eacute;e Paul Claudel &mdash; Laon</h4>
+              <span class="company-type">BTS SIO SLAM &mdash; Projet individuel</span></div></div>
+            <p>GestMeGot est un projet r&eacute;alis&eacute; <strong>seul en classe</strong> dans le cadre du BTS SIO SLAM au Lyc&eacute;e Paul Claudel. L&rsquo;objectif &eacute;tait de concevoir une application de gestion compl&egrave;te en respectant l&rsquo;architecture <strong>MVC</strong>.</p>
+            <div class="mc-facts">
+              <div class="mcf"><span class="mcf-k">&#127979;&nbsp;Cadre</span><span class="mcf-v">Projet scolaire</span></div>
+              <div class="mcf"><span class="mcf-k">&#128101;&nbsp;&Eacute;quipe</span><span class="mcf-v">Solo</span></div>
+              <div class="mcf"><span class="mcf-k">&#128197;&nbsp;Date</span><span class="mcf-v">Mars 2025</span></div>
+              <div class="mcf"><span class="mcf-k">&#128196;&nbsp;Rendu</span><span class="mcf-v">Application web</span></div>
+            </div></div>
+          <div class="mc-map">
+            <div class="mc-map-frame-wrap">
+              <iframe src="https://maps.google.com/maps?q=Lyc%C3%A9e+Paul+Claudel+Laon&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="200"
+                style="border:none;border-radius:10px 10px 0 0;display:block;"
+                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="mc-map-foot">
+              <div class="map-pin-ico">&#128205;</div>
+              <div class="map-details"><strong>Lyc&eacute;e Paul Claudel</strong><span>Laon, Aisne</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Documentation</span>
+        <h3 class="modal-sh">Cahier des charges</h3>
+        <div class="tech-explain">
+          <span class="te-ico">&#128161;</span>
+          <div class="te-body">
+            <span class="te-title">Technologies en termes simples</span>
+            <ul>
+              <li><strong>Architecture MVC</strong> &mdash; organisation du code en 3 parties s&eacute;par&eacute;es&nbsp;: la base de donn&eacute;es (Mod&egrave;le), les pages affich&eacute;es (Vue) et la logique du site (Contr&ocirc;leur). Cela rend le code plus propre et maintenable.</li>
+              <li><strong>CRUD</strong> &mdash; les 4 actions de base sur les donn&eacute;es&nbsp;: <em>Cr&eacute;er, Lire, Modifier et Supprimer</em> (Create / Read / Update / Delete).</li>
+              <li><strong>Sessions PHP</strong> &mdash; m&eacute;canisme qui garde l&rsquo;utilisateur connect&eacute; lorsqu&rsquo;il navigue de page en page.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cdc-cards"><div class="cdc-c cdc-c--hi"><div class="cdc-ico">&#127919;</div><h4>Objectif</h4><p>Cr&eacute;er une application de gestion en <strong>architecture MVC</strong> avec PHP et MySQL.</p></div><div class="cdc-c"><div class="cdc-ico">&#128274;</div><h4>Authentification</h4><p>Syst&egrave;me de <strong>connexion s&eacute;curis&eacute;e</strong> avec gestion des r&ocirc;les (admin/utilisateur).</p></div><div class="cdc-c"><div class="cdc-ico">&#128101;</div><h4>CRUD complet</h4><p>Cr&eacute;ation, lecture, modification et suppression des entit&eacute;s avec <strong>validation des donn&eacute;es</strong>.</p></div><div class="cdc-c"><div class="cdc-ico">&#128196;</div><h4>Interface admin</h4><p>Tableau de bord d&rsquo;administration avec <strong>gestion des utilisateurs</strong> et statistiques.</p></div></div>
+        <div class="cdc-table-wrap"><table class="cdc-table">
+          <thead><tr><th style="width:42px">#</th><th>Fonctionnalit&eacute;</th><th style="width:70px;text-align:center">Priorit&eacute;</th><th style="width:90px">Statut</th></tr></thead>
+          <tbody><tr><td class="ft-id">F01</td><td><strong>Page de connexion</strong> s&eacute;curis&eacute;e + gestion sessions</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F02</td><td><strong>CRUD</strong> des entit&eacute;s principales</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F03</td><td><strong>Architecture MVC</strong> stricte (Mod&egrave;le / Vue / Contr&ocirc;leur)</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F04</td><td><strong>R&ocirc;les utilisateurs</strong> : admin vs user</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F05</td><td><strong>Validation formulaires</strong> c&ocirc;t&eacute; serveur</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr></tbody>
+        </table></div>
+      </div>
+
+      <div class="modal-section modal-section--last">
+        <span class="modal-slabel">Bilan</span>
+        <h3 class="modal-sh">Comp&eacute;tences mobilis&eacute;es</h3>
+        <div class="modal-chips"><span class="mchip">&#128248;&nbsp;PHP 8</span><span class="mchip">&#128200;&nbsp;MySQL</span><span class="mchip">&#127963;&nbsp;Architecture MVC</span><span class="mchip">&#128274;&nbsp;Auth. s&eacute;curis&eacute;e</span><span class="mchip">&#128101;&nbsp;Gestion r&ocirc;les</span><span class="mchip">&#127963;&nbsp;CSS Flexbox</span></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- MODALE — V&EACUTE;LOLAON -->
+<div class="modal-overlay" id="modalVelolaon" role="dialog" aria-modal="true">
+  <div class="modal-panel">
+    <button class="modal-close" data-modal="modalVelolaon" aria-label="Fermer">&#x2715;</button>
+    <div class="modal-scroll">
+
+      <div class="modal-hero">
+        <div class="modal-badges">
+          <span class="mbadge mbadge-blue">&#11088;&nbsp;Projet Phare</span>
+          <span class="mbadge mbadge-blue">Projet en classe &mdash; en &eacute;quipe</span>
+        </div>
+        <h2 class="modal-title">V&eacute;loLaon</h2>
+        <div class="modal-meta">
+          <div class="mm"><b>PHP · MySQL · Leaflet.js · AJAX</b><span>Stack</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>4 semaines</b><span>Dur&eacute;e</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>2025-26</b><span>Ann&eacute;e</span></div>
+        </div>
+        <div class="modal-docs"><a href="docs/velolaon-cahier-charges.pdf" download class="mdoc-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/></svg>Cahier des charges</a></div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Captures d&rsquo;&eacute;cran</span>
+        <h3 class="modal-sh">Galerie du projet</h3>
+        <div class="modal-carousel" id="car_modalVelolaon">
+          <div class="mc-track" id="track_modalVelolaon">
+            <div class="mc-slide">
+              <img src="Images/velolaon.png" alt="VéloLaon"/>
+              <div class="mc-slide-caption">Application VéloLaon</div>
+            </div>
+          </div>
+          <button class="mc-btn mc-prev" aria-label="Pr&eacute;c&eacute;dent">&#8592;</button>
+          <button class="mc-btn mc-next" aria-label="Suivant">&#8594;</button>
+          <div class="mc-dots" id="dots_modalVelolaon"></div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Contexte</span>
+        <h3 class="modal-sh">Contexte scolaire</h3>
+        <div class="modal-company">
+          <div class="mc-text"><div class="company-name-row">
+              <div class="company-logo-mono">P</div>
+              <div><h4 class="company-name">Lyc&eacute;e Paul Claudel &mdash; Laon</h4>
+              <span class="company-type">BTS SIO SLAM &mdash; Projet &eacute;quipe</span></div></div>
+            <p>V&eacute;loLaon est le <strong>projet phare</strong> du BTS, r&eacute;alis&eacute; en &eacute;quipe au Lyc&eacute;e Paul Claudel. Application web de v&eacute;los en libre-service pour la ville de Laon, avec carte interactive, disponibilit&eacute; temps r&eacute;el et espace admin complet.</p>
+            <div class="mc-facts">
+              <div class="mcf"><span class="mcf-k">&#127979;&nbsp;Cadre</span><span class="mcf-v">Projet scolaire</span></div>
+              <div class="mcf"><span class="mcf-k">&#128101;&nbsp;&Eacute;quipe</span><span class="mcf-v">Groupe classe</span></div>
+              <div class="mcf"><span class="mcf-k">&#128197;&nbsp;Date</span><span class="mcf-v">2025-2026</span></div>
+              <div class="mcf"><span class="mcf-k">&#128196;&nbsp;Rendu</span><span class="mcf-v">Application web compl&egrave;te</span></div>
+            </div></div>
+          <div class="mc-map">
+            <div class="mc-map-frame-wrap">
+              <iframe src="https://maps.google.com/maps?q=Lyc%C3%A9e+Paul+Claudel+Laon&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="200"
+                style="border:none;border-radius:10px 10px 0 0;display:block;"
+                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="mc-map-foot">
+              <div class="map-pin-ico">&#128205;</div>
+              <div class="map-details"><strong>Lyc&eacute;e Paul Claudel</strong><span>Laon, Aisne</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Documentation</span>
+        <h3 class="modal-sh">Cahier des charges</h3>
+        <div class="tech-explain">
+          <span class="te-ico">&#128161;</span>
+          <div class="te-body">
+            <span class="te-title">Technologies en termes simples</span>
+            <ul>
+              <li><strong>Leaflet.js</strong> &mdash; biblioth&egrave;que JavaScript gratuite qui permet d&rsquo;afficher des <em>cartes interactives</em> dans un navigateur (similaire &agrave; Google Maps, mais int&eacute;gr&eacute;e directement dans le site).</li>
+              <li><strong>AJAX</strong> &mdash; technique permettant de <em>mettre &agrave; jour une partie de la page</em> sans la recharger enti&egrave;rement. C&rsquo;est ce qui donne l&rsquo;effet &laquo;&nbsp;temps r&eacute;el&nbsp;&raquo;.</li>
+              <li><strong>Architecture MVC</strong> &mdash; organisation du code en Mod&egrave;le (base de donn&eacute;es), Vue (affichage) et Contr&ocirc;leur (logique), pour un projet propre et &eacute;volutif.</li>
+              <li><strong>Back-office admin</strong> &mdash; interface r&eacute;serv&eacute;e aux administrateurs pour g&eacute;rer les v&eacute;los, les stations et les utilisateurs (invisible du public).</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cdc-cards"><div class="cdc-c cdc-c--hi"><div class="cdc-ico">&#128506;</div><h4>Carte interactive</h4><p>Carte en temps r&eacute;el avec <strong>Leaflet.js</strong> affichant les stations et disponibilit&eacute;s.</p></div><div class="cdc-c"><div class="cdc-ico">&#128260;</div><h4>Temps r&eacute;el</h4><p>Mise &agrave; jour automatique via <strong>AJAX</strong> sans rechargement de page.</p></div><div class="cdc-c"><div class="cdc-ico">&#128100;</div><h4>Espace utilisateur</h4><p>R&eacute;servation, historique, profil personnel avec <strong>authentification s&eacute;curis&eacute;e</strong>.</p></div><div class="cdc-c"><div class="cdc-ico">&#9881;&#65039;</div><h4>Back-office admin</h4><p>Gestion des stations, v&eacute;los, utilisateurs et statistiques depuis l&rsquo;<strong>interface admin</strong>.</p></div></div>
+        <div class="cdc-table-wrap"><table class="cdc-table">
+          <thead><tr><th style="width:42px">#</th><th>Fonctionnalit&eacute;</th><th style="width:70px;text-align:center">Priorit&eacute;</th><th style="width:90px">Statut</th></tr></thead>
+          <tbody><tr><td class="ft-id">F01</td><td><strong>Carte Leaflet.js</strong> avec marqueurs de stations</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F02</td><td><strong>Disponibilit&eacute; temps r&eacute;el</strong> via AJAX</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F03</td><td><strong>R&eacute;servation</strong> de v&eacute;lo avec cr&eacute;neau horaire</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F04</td><td><strong>Espace utilisateur</strong> : connexion, historique, profil</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F05</td><td><strong>Back-office admin</strong> : gestion compl&egrave;te</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F06</td><td><strong>Architecture MVC</strong> PHP stricte</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr></tbody>
+        </table></div>
+      </div>
+
+      <div class="modal-section modal-section--last">
+        <span class="modal-slabel">Bilan</span>
+        <h3 class="modal-sh">Comp&eacute;tences mobilis&eacute;es</h3>
+        <div class="modal-chips"><span class="mchip">&#128248;&nbsp;PHP / MySQL</span><span class="mchip">&#128506;&nbsp;Leaflet.js</span><span class="mchip">&#128260;&nbsp;AJAX</span><span class="mchip">&#127963;&nbsp;Architecture MVC</span><span class="mchip">&#128274;&nbsp;Auth. s&eacute;curis&eacute;e</span><span class="mchip">&#128200;&nbsp;Back-office</span><span class="mchip">&#128101;&nbsp;Travail &eacute;quipe</span></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- MODALE — LE MONDE ET VACHE -->
+<div class="modal-overlay" id="modalMondevache" role="dialog" aria-modal="true">
+  <div class="modal-panel">
+    <button class="modal-close" data-modal="modalMondevache" aria-label="Fermer">&#x2715;</button>
+    <div class="modal-scroll">
+
+      <div class="modal-hero">
+        <div class="modal-badges">
+          <span class="mbadge mbadge-teal">&#128248;&nbsp;Site E-commerce</span>
+          <span class="mbadge mbadge-blue">Projet en classe &mdash; en &eacute;quipe</span>
+        </div>
+        <h2 class="modal-title">Le monde et vache</h2>
+        <div class="modal-meta">
+          <div class="mm"><b>HTML · CSS · JavaScript</b><span>Stack</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>7 mois</b><span>Dur&eacute;e</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>2024-25</b><span>Ann&eacute;e</span></div>
+        </div>
+        <div class="modal-docs"><a href="docs/mondevache-cahier-charges.pdf" download class="mdoc-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/></svg>Cahier des charges</a></div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Captures d&rsquo;&eacute;cran</span>
+        <h3 class="modal-sh">Galerie du projet</h3>
+        <div class="modal-carousel" id="car_modalMondevache">
+          <div class="mc-track" id="track_modalMondevache">
+            <div class="mc-slide">
+              <img src="images/le monde est vache index.png" alt="Page d'accueil"/>
+              <div class="mc-slide-caption">&#127968;&nbsp;Page d&rsquo;accueil</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/connexion lmdv.png" alt="Page connexion"/>
+              <div class="mc-slide-caption">&#128274;&nbsp;Page connexion</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/panier lmdv.png" alt="Panier d'achat"/>
+              <div class="mc-slide-caption">&#128722;&nbsp;Panier d&rsquo;achat</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/contact lmdv.png" alt="Page contact"/>
+              <div class="mc-slide-caption">&#128222;&nbsp;Page contact</div>
+            </div>
+          </div>
+          <button class="mc-btn mc-prev" aria-label="Pr&eacute;c&eacute;dent">&#8592;</button>
+          <button class="mc-btn mc-next" aria-label="Suivant">&#8594;</button>
+          <div class="mc-dots" id="dots_modalMondevache"></div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Contexte</span>
+        <h3 class="modal-sh">Contexte scolaire</h3>
+        <div class="modal-company">
+          <div class="mc-text"><div class="company-name-row">
+              <div class="company-logo-mono">P</div>
+              <div><h4 class="company-name">Lyc&eacute;e Paul Claudel &mdash; Laon</h4>
+              <span class="company-type">BTS SIO SLAM &mdash; Projet &eacute;quipe</span></div></div>
+            <p>Site e-commerce de vente de v&ecirc;tements r&eacute;alis&eacute; <strong>en &eacute;quipe</strong> au Lyc&eacute;e Paul Claudel. Le projet couvre la conception du catalogue produits, les fiches articles, le panier et une navigation fluide.</p>
+            <div class="mc-facts">
+              <div class="mcf"><span class="mcf-k">&#127979;&nbsp;Cadre</span><span class="mcf-v">Projet scolaire</span></div>
+              <div class="mcf"><span class="mcf-k">&#128101;&nbsp;&Eacute;quipe</span><span class="mcf-v">Groupe classe</span></div>
+              <div class="mcf"><span class="mcf-k">&#128197;&nbsp;Date</span><span class="mcf-v">Oct 2024 &ndash; Mai 2025</span></div>
+              <div class="mcf"><span class="mcf-k">&#128248;&nbsp;Type</span><span class="mcf-v">Site e-commerce</span></div>
+            </div></div>
+          <div class="mc-map">
+            <div class="mc-map-frame-wrap">
+              <iframe src="https://maps.google.com/maps?q=Lyc%C3%A9e+Paul+Claudel+Laon&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="200"
+                style="border:none;border-radius:10px 10px 0 0;display:block;"
+                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="mc-map-foot">
+              <div class="map-pin-ico">&#128205;</div>
+              <div class="map-details"><strong>Lyc&eacute;e Paul Claudel</strong><span>Laon, Aisne</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Documentation</span>
+        <h3 class="modal-sh">Cahier des charges</h3>
+        <div class="tech-explain">
+          <span class="te-ico">&#128161;</span>
+          <div class="te-body">
+            <span class="te-title">Technologies en termes simples</span>
+            <ul>
+              <li><strong>HTML5 s&eacute;mantique</strong> &mdash; structure de la page avec des balises qui donnent du <em>sens au contenu</em> (ent&ecirc;te, navigation, article&hellip;), ce qui am&eacute;liore l&rsquo;accessibilit&eacute; et le r&eacute;f&eacute;rencement.</li>
+              <li><strong>CSS3 Flexbox / Grid</strong> &mdash; outils de mise en page CSS qui permettent d&rsquo;organiser les &eacute;l&eacute;ments visuellement de fa&ccedil;on flexible et responsive (adapt&eacute; &agrave; tous les &eacute;crans).</li>
+              <li><strong>JavaScript DOM</strong> &mdash; langage de programmation qui permet de rendre la page <em>interactive</em> (gestion du panier, filtres, animations) sans rechargement.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cdc-cards"><div class="cdc-c cdc-c--hi"><div class="cdc-ico">&#128248;</div><h4>Catalogue produits</h4><p>Affichage des v&ecirc;tements avec photos, prix, tailles et description d&eacute;taill&eacute;e.</p></div><div class="cdc-c"><div class="cdc-ico">&#128722;</div><h4>Panier d&rsquo;achat</h4><p>Ajout/suppression d&rsquo;articles, calcul automatique du <strong>total commande</strong>.</p></div><div class="cdc-c"><div class="cdc-ico">&#128269;</div><h4>Filtres &amp; recherche</h4><p>Filtrage par <strong>cat&eacute;gorie, taille et prix</strong> avec mise &agrave; jour dynamique.</p></div><div class="cdc-c"><div class="cdc-ico">&#128241;</div><h4>Design responsive</h4><p>Interface adapt&eacute;e <strong>mobile, tablette et desktop</strong>.</p></div></div>
+        <div class="cdc-table-wrap"><table class="cdc-table">
+          <thead><tr><th style="width:42px">#</th><th>Fonctionnalit&eacute;</th><th style="width:70px;text-align:center">Priorit&eacute;</th><th style="width:90px">Statut</th></tr></thead>
+          <tbody><tr><td class="ft-id">F01</td><td><strong>Page d&rsquo;accueil</strong> avec mise en avant des nouveaut&eacute;s</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F02</td><td><strong>Catalogue produits</strong> avec filtres</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F03</td><td><strong>Fiche produit</strong> d&eacute;taill&eacute;e + galerie photos</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F04</td><td><strong>Panier</strong> : ajout, suppression, total</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F05</td><td><strong>Responsive design</strong> mobile-first</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr></tbody>
+        </table></div>
+      </div>
+
+      <div class="modal-section modal-section--last">
+        <span class="modal-slabel">Bilan</span>
+        <h3 class="modal-sh">Comp&eacute;tences mobilis&eacute;es</h3>
+        <div class="modal-chips"><span class="mchip">&#127760;&nbsp;HTML5 s&eacute;mantique</span><span class="mchip">&#127912;&nbsp;CSS3 &amp; Flexbox/Grid</span><span class="mchip">&#9889;&nbsp;JavaScript DOM</span><span class="mchip">&#128722;&nbsp;Logique panier</span><span class="mchip">&#128241;&nbsp;Responsive design</span><span class="mchip">&#128101;&nbsp;Travail &eacute;quipe</span></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- MODALE — CHATBOT IMMO -->
+<div class="modal-overlay" id="modalChatbot" role="dialog" aria-modal="true">
+  <div class="modal-panel">
+    <button class="modal-close" data-modal="modalChatbot" aria-label="Fermer">&#x2715;</button>
+    <div class="modal-scroll">
+
+      <div class="modal-hero">
+        <div class="modal-badges">
+          <span class="mbadge mbadge-green">&#128274;&nbsp;Assistant Virtuel</span>
+          <span class="mbadge mbadge-blue">Stage 1&egrave;re ann&eacute;e &mdash; ArthurImmo</span>
+        </div>
+        <h2 class="modal-title">ChatBot Immo</h2>
+        <div class="modal-meta">
+          <div class="mm"><b>JavaScript · EmailJS · HTML/CSS</b><span>Stack</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>5 semaines</b><span>Dur&eacute;e</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>2025</b><span>Ann&eacute;e</span></div>
+        </div>
+        <div class="modal-docs"><a href="docs/chatbot-doc-utilisateur.pdf" download class="mdoc-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/></svg>Doc utilisateur</a><a href="docs/chatbot-cahier-charges.pdf" download class="mdoc-btn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/></svg>Cahier des charges</a></div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Captures d&rsquo;&eacute;cran</span>
+        <h3 class="modal-sh">Galerie du projet</h3>
+        <div class="modal-carousel" id="car_modalChatbot">
+          <div class="mc-track" id="track_modalChatbot">
+            <div class="mc-slide">
+              <img src="images/chatbot1.png" alt="Interface du chatbot"/>
+              <div class="mc-slide-caption">&#129302;&nbsp;Interface du chatbot</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/chatbot2.png" alt="Formulaire de contact bot"/>
+              <div class="mc-slide-caption">&#128231;&nbsp;Formulaire de contact bot</div>
+            </div>
+          </div>
+          <button class="mc-btn mc-prev" aria-label="Pr&eacute;c&eacute;dent">&#8592;</button>
+          <button class="mc-btn mc-next" aria-label="Suivant">&#8594;</button>
+          <div class="mc-dots" id="dots_modalChatbot"></div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Contexte</span>
+        <h3 class="modal-sh">ArthurImmo &mdash; Agence immobili&egrave;re</h3>
+        <div class="modal-company">
+          <div class="mc-text"><div class="company-name-row">
+              <div class="company-logo-mono">A</div>
+              <div><h4 class="company-name">ArthurImmo</h4>
+              <span class="company-type">Agence immobili&egrave;re &mdash; Stage 1&egrave;re ann&eacute;e BTS</span></div></div>
+            <p>Stage de 1&egrave;re ann&eacute;e r&eacute;alis&eacute; chez <strong>ArthurImmo</strong>, agence immobili&egrave;re locale. La mission &eacute;tait de concevoir et d&eacute;velopper un <strong>chatbot interactif</strong> pour guider les visiteurs du site et automatiser la prise de contact.</p>
+            <div class="mc-facts">
+              <div class="mcf"><span class="mcf-k">&#127968;&nbsp;Secteur</span><span class="mcf-v">Immobilier</span></div>
+              <div class="mcf"><span class="mcf-k">&#128205;&nbsp;Ville</span><span class="mcf-v">Laon</span></div>
+              <div class="mcf"><span class="mcf-k">&#128197;&nbsp;Date</span><span class="mcf-v">2025 &mdash; 5 semaines</span></div>
+              <div class="mcf"><span class="mcf-k">&#128296;&nbsp;Mission</span><span class="mcf-v">ChatBot interactif</span></div>
+            </div></div>
+          <div class="mc-map">
+            <div class="mc-map-frame-wrap">
+              <iframe src="https://maps.google.com/maps?q=Arthur+Immo+Laon&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="200"
+                style="border:none;border-radius:10px 10px 0 0;display:block;"
+                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="mc-map-foot">
+              <div class="map-pin-ico">&#128205;</div>
+              <div class="map-details"><strong>ArthurImmo</strong><span>Laon, Aisne</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <span class="modal-slabel">Documentation</span>
+        <h3 class="modal-sh">Cahier des charges</h3>
+        <div class="tech-explain">
+          <span class="te-ico">&#128161;</span>
+          <div class="te-body">
+            <span class="te-title">Technologies en termes simples</span>
+            <ul>
+              <li><strong>Arbre de d&eacute;cision</strong> &mdash; logique qui guide l&rsquo;utilisateur &eacute;tape par &eacute;tape selon ses r&eacute;ponses (ex&nbsp;: &laquo;&nbsp;Achat ou location&nbsp;?&nbsp;&raquo; &rarr; &laquo;&nbsp;Maison ou appartement&nbsp;?&nbsp;&raquo;), comme un syst&egrave;me de questions-r&eacute;ponses branch&eacute;es.</li>
+              <li><strong>EmailJS</strong> &mdash; service qui permet d&rsquo;envoyer des e-mails directement depuis le navigateur, <em>sans serveur</em>. D&egrave;s qu&rsquo;un client soumet sa demande, l&rsquo;agence re&ccedil;oit un e-mail automatiquement.</li>
+              <li><strong>Responsive</strong> &mdash; le site s&rsquo;adapte automatiquement &agrave; la taille de l&rsquo;&eacute;cran (t&eacute;l&eacute;phone, tablette, ordinateur).</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cdc-cards"><div class="cdc-c cdc-c--hi"><div class="cdc-ico">&#129302;</div><h4>Chatbot interactif</h4><p>Arbre de d&eacute;cision dynamique guidant l&rsquo;utilisateur selon ses <strong>besoins immobiliers</strong>.</p></div><div class="cdc-c"><div class="cdc-ico">&#128231;</div><h4>Envoi e-mail auto</h4><p>Int&eacute;gration <strong>EmailJS</strong> pour envoyer les demandes de contact directement &agrave; l&rsquo;agence.</p></div><div class="cdc-c"><div class="cdc-ico">&#128241;</div><h4>Responsive</h4><p>Interface adapt&eacute;e &agrave; tous les &eacute;crans, <strong>int&eacute;grable</strong> sur le site de l&rsquo;agence.</p></div><div class="cdc-c"><div class="cdc-ico">&#127919;</div><h4>UX fluide</h4><p>Transitions anim&eacute;es, <strong>messages typ&eacute;s</strong> et interface conviviale pour les clients.</p></div></div>
+        <div class="cdc-table-wrap"><table class="cdc-table">
+          <thead><tr><th style="width:42px">#</th><th>Fonctionnalit&eacute;</th><th style="width:70px;text-align:center">Priorit&eacute;</th><th style="width:90px">Statut</th></tr></thead>
+          <tbody><tr><td class="ft-id">F01</td><td><strong>Arbre de d&eacute;cision</strong> : achat / location / estimation</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F02</td><td><strong>Formulaire de contact</strong> int&eacute;gr&eacute; au bot</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F03</td><td><strong>EmailJS</strong> : envoi e-mail automatique &agrave; l&rsquo;agence</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F04</td><td><strong>Animations</strong> et effet de frappe (typing)</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr><tr><td class="ft-id">F05</td><td><strong>Responsive</strong> : mobile et desktop</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr></tbody>
+        </table></div>
+      </div>
+
+      <div class="modal-section modal-section--last">
+        <span class="modal-slabel">Bilan</span>
+        <h3 class="modal-sh">Comp&eacute;tences mobilis&eacute;es</h3>
+        <div class="modal-chips"><span class="mchip">&#9889;&nbsp;JavaScript</span><span class="mchip">&#128231;&nbsp;EmailJS</span><span class="mchip">&#127760;&nbsp;HTML5 / CSS3</span><span class="mchip">&#129302;&nbsp;Arbre de d&eacute;cision</span><span class="mchip">&#127919;&nbsp;UX / Animations</span><span class="mchip">&#128241;&nbsp;Responsive</span></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- MODALE — TRACE MOI SI TU PEUX (Stage 2) -->
+<div class="modal-overlay" id="modalTracemoi" role="dialog" aria-modal="true">
+  <div class="modal-panel">
+    <button class="modal-close" data-modal="modalTracemoi" aria-label="Fermer">&#x2715;</button>
+
+    <div class="modal-scroll">
+
+      <!-- HERO -->
+      <div class="modal-hero">
+        <div class="modal-badges">
+          <span class="mbadge mbadge-blue">&#128187;&nbsp;C# / WinForms</span>
+          <span class="mbadge mbadge-blue">Stage 2&egrave;me ann&eacute;e &middot; 2026</span>
+        </div>
+        <h2 class="modal-title">Trace moi si tu peux</h2>
+        <p class="modal-sub">
+          Application de r&eacute;seau social fictif d&eacute;velopp&eacute;e en <strong>C# WinForms</strong> lors de mon stage &agrave; la
+          <strong>Ligue de l&rsquo;enseignement de l&rsquo;Aisne</strong>. L&rsquo;application simule les fonctionnalit&eacute;s
+          d&rsquo;un r&eacute;seau social &mdash; gestion de profils, fil d&rsquo;actualit&eacute;, posts avec images,
+          likes, mode sombre &mdash; avec une base de donn&eacute;es JSON.
+        </p>
+        <div class="modal-meta">
+          <div class="mm"><b>C# / WinForms</b><span>Stack</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>5&nbsp;semaines</b><span>Dur&eacute;e</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>2026</b><span>Ann&eacute;e</span></div>
+          <div class="mm-sep"></div>
+          <div class="mm"><b>Stage</b><span>Contexte</span></div>
+        </div>
+        <div class="modal-docs">
+          <a href="docs/tracemoi-doc-utilisateur.pdf" download class="mdoc-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            Documentation utilisateur
+          </a>
+          <a href="docs/tracemoi-cahier-charges.pdf" download class="mdoc-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+            Cahier des charges
+          </a>
+        </div>
+      </div>
+
+      <!-- CARROUSEL -->
+      <div class="modal-section">
+        <span class="modal-slabel">Captures d&rsquo;&eacute;cran</span>
+        <h3 class="modal-sh">Galerie du projet</h3>
+        <div class="modal-carousel" id="modalCar">
+          <div class="mc-track" id="mcTrack">
+            <div class="mc-slide">
+              <img src="images/image6.png" alt="Menu principal"/>
+              <div class="mc-slide-caption">&#127968;&nbsp;Menu principal — Fakebook &amp; Fakestagram</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image1.png" alt="Fakebook fil d'actualité mode sombre"/>
+              <div class="mc-slide-caption">&#127769;&nbsp;Fakebook — fil d&rsquo;actualit&eacute; (mode sombre)</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image10.png" alt="Fakebook fil d'actualité mode sombre 2"/>
+              <div class="mc-slide-caption">&#127769;&nbsp;Fakebook — mode sombre (vue 2)</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image2.png" alt="Fakebook fil d'actualité mode clair"/>
+              <div class="mc-slide-caption">&#9728;&#65039;&nbsp;Fakebook — fil d&rsquo;actualit&eacute; (mode clair)</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image3.png" alt="Fakebook fil d'actualité mode clair vue 2"/>
+              <div class="mc-slide-caption">&#9728;&#65039;&nbsp;Fakebook — mode clair (vue 2)</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image7.png" alt="Fakebook page profil mode sombre"/>
+              <div class="mc-slide-caption">&#128100;&nbsp;Fakebook — page profil (mode sombre)</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image8.png" alt="Fakebook page profil mode clair"/>
+              <div class="mc-slide-caption">&#128100;&nbsp;Fakebook — page profil (mode clair)</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image4.png" alt="Fakestagram grille profil"/>
+              <div class="mc-slide-caption">&#128247;&nbsp;Fakestagram — grille de profil</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image5.png" alt="Fakestagram fil d'actualité"/>
+              <div class="mc-slide-caption">&#128247;&nbsp;Fakestagram — fil d&rsquo;actualit&eacute;</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image9.png" alt="Fakestagram fil d'actualité vue 2"/>
+              <div class="mc-slide-caption">&#128247;&nbsp;Fakestagram — fil d&rsquo;actualit&eacute; (vue 2)</div>
+            </div>
+            <div class="mc-slide">
+              <img src="images/image salle de stage.jpg" alt="Salle de stage — Ligue de l'enseignement"/>
+              <div class="mc-slide-caption">&#127979;&nbsp;Salle de stage &mdash; Ligue de l&rsquo;enseignement de l&rsquo;Aisne</div>
+            </div>
+          </div>
+          <button class="mc-btn mc-prev" aria-label="Pr&eacute;c&eacute;dent">&#8592;</button>
+          <button class="mc-btn mc-next" aria-label="Suivant">&#8594;</button>
+          <div class="mc-dots" id="mcDots"></div>
+          <div class="mc-counter" id="mcCounter">1 / 11</div>
+        </div>
+      </div>
+
+      <!-- ENTREPRISE + MAP -->
+      <div class="modal-section">
+        <span class="modal-slabel">Contexte du stage</span>
+        <h3 class="modal-sh">L&rsquo;entreprise d&rsquo;accueil</h3>
+        <div class="modal-company">
+          <div class="mc-text">
+            <div class="company-name-row">
+              <div class="company-logo-mono">L</div>
+              <div>
+                <h4 class="company-name">Ligue de l&rsquo;enseignement de l&rsquo;Aisne</h4>
+                <span class="company-type">Association loi 1901 &mdash; &Eacute;ducation populaire</span>
+              </div>
+            </div>
+            <p>La <strong>Ligue de l&rsquo;enseignement de l&rsquo;Aisne</strong> est une f&eacute;d&eacute;ration d&rsquo;&eacute;ducation populaire implant&eacute;e &agrave; Laon. Elle accompagne les associations, les &eacute;tablissements scolaires et les collectivit&eacute;s dans leurs projets &eacute;ducatifs, culturels et citoyens.</p>
+            <p style="margin-top:.65rem">Mon stage s&rsquo;est d&eacute;roul&eacute; au sein du <strong>service informatique</strong>, o&ugrave; j&rsquo;ai eu pour mission de concevoir l&rsquo;application <strong>Trace moi si tu peux</strong>, un r&eacute;seau social fictif C# destin&eacute; &agrave; la formation interne.</p>
+            <div class="mc-facts">
+              <div class="mcf"><span class="mcf-k">&#127968;&nbsp;Secteur</span><span class="mcf-v">&Eacute;ducation populaire</span></div>
+              <div class="mcf"><span class="mcf-k">&#128205;&nbsp;Ville</span><span class="mcf-v">Laon (02000)</span></div>
+              <div class="mcf"><span class="mcf-k">&#128188;&nbsp;Type</span><span class="mcf-v">Association loi 1901</span></div>
+              <div class="mcf"><span class="mcf-k">&#128296;&nbsp;Mission</span><span class="mcf-v">R&eacute;seau social C#</span></div>
+            </div>
+          </div>
+          <div class="mc-map">
+            <div class="mc-map-frame-wrap">
+              <iframe src="https://maps.google.com/maps?q=8%20Route%20de%20Besny,%2002000%20Laon&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="200" style="border:none;border-radius:10px 10px 0 0;display:block;"
+                allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                title="Ligue de l'enseignement de l'Aisne — Laon">
+              </iframe>
+            </div>
+            <div class="mc-map-foot">
+              <div class="map-pin-ico">&#128205;</div>
+              <div class="map-details">
+                <strong>Ligue de l&rsquo;enseignement de l&rsquo;Aisne</strong>
+                <span>8 Rte de Besny, 02000 Laon</span>
+                <a href="https://maps.google.com/maps?q=8+Route+de+Besny,+02000+Laon" target="_blank" rel="noopener" class="map-open-link">Ouvrir dans Google Maps &#8599;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CAHIER DES CHARGES -->
+      <div class="modal-section">
+        <span class="modal-slabel">Documentation</span>
+        <h3 class="modal-sh">Cahier des charges</h3>
+        <div class="cdc-cards">
+          <div class="tech-explain" style="grid-column:1/-1">
+            <span class="te-ico">&#128161;</span>
+            <div class="te-body">
+              <span class="te-title">Technologies en termes simples</span>
+              <ul>
+                <li><strong>C# WinForms</strong> &mdash; langage Microsoft (C Sharp) avec un framework pour cr&eacute;er des <em>applications bureau Windows</em> avec des fen&ecirc;tres, boutons et formulaires (contrairement &agrave; un site web).</li>
+                <li><strong>JSON</strong> &mdash; format de fichier texte pour stocker des donn&eacute;es structur&eacute;es (comme un profil utilisateur ou un post), lisible par les humains et les machines.</li>
+                <li><strong>CRUD sur les profils</strong> &mdash; l&rsquo;application permet de Cr&eacute;er, afficher (Lire), modifier (Update) et Supprimer des profils et des publications.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cdc-c cdc-c--hi"><div class="cdc-ico">&#127919;</div><h4>Objectif principal</h4><p>D&eacute;velopper un <strong>r&eacute;seau social fictif en C# WinForms</strong> simulant Facebook : profils, posts, likes, fil d&rsquo;actualit&eacute;.</p></div>
+          <div class="cdc-c"><div class="cdc-ico">&#128196;</div><h4>Base de donn&eacute;es JSON</h4><p>Stockage et lecture des donn&eacute;es utilisateurs (profils, posts, images) via des <strong>fichiers JSON</strong> — un format texte structur&eacute; lisible par les machines.</p></div>
+          <div class="cdc-c"><div class="cdc-ico">&#127764;</div><h4>Mode sombre</h4><p>Interface th&eacute;mable en <strong>dark mode</strong> (#121212, #212121) sur tous les UserControls.</p></div>
+          <div class="cdc-c"><div class="cdc-ico">&#128101;</div><h4>Gestion des profils</h4><p>CRUD complet. <strong>Recherche par pseudo</strong> et affichage d&eacute;taill&eacute; (bio, localisation, parcours).</p></div>
+        </div>
+        <div class="cdc-table-wrap">
+          <table class="cdc-table">
+            <thead><tr><th style="width:42px">#</th><th>Fonctionnalit&eacute;</th><th style="width:70px;text-align:center">Priorit&eacute;</th><th style="width:90px">Statut</th></tr></thead>
+            <tbody>
+              <tr><td class="ft-id">F01</td><td><strong>Interface principale</strong> — fil d'actualit&eacute; avec posts et images</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr>
+              <tr><td class="ft-id">F02</td><td><strong>Gestion des profils</strong> — CRUD complet avec recherche par pseudo</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr>
+              <tr><td class="ft-id">F03</td><td><strong>Gestion des posts</strong> — publication, images, captions</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr>
+              <tr><td class="ft-id">F04</td><td><strong>Syst&egrave;me de likes</strong> — compteur par post</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr>
+              <tr><td class="ft-id">F05</td><td><strong>Mode sombre</strong> — th&egrave;me dark sur tous les UserControls</td><td style="text-align:center"><span class="fpri fpri-md"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr>
+              <tr><td class="ft-id">F06</td><td><strong>Base JSON</strong> — lecture/&eacute;criture des donn&eacute;es structur&eacute;es</td><td style="text-align:center"><span class="fpri fpri-hi"></span></td><td><span class="fst fst-ok">&#10003;&nbsp;R&eacute;alis&eacute;</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- COMPÉTENCES -->
+      <div class="modal-section modal-section--last">
+        <span class="modal-slabel">Bilan</span>
+        <h3 class="modal-sh">Comp&eacute;tences mobilis&eacute;es</h3>
+        <div class="modal-chips">
+          <span class="mchip">&#128187;&nbsp;C# WinForms</span>
+          <span class="mchip">&#127873;&nbsp;.NET Framework</span>
+          <span class="mchip">&#128196;&nbsp;JSON (lecture/&eacute;criture)</span>
+          <span class="mchip">&#127764;&nbsp;Dark Mode UI</span>
+          <span class="mchip">&#128101;&nbsp;Gestion utilisateurs</span>
+          <span class="mchip">&#128203;&nbsp;Trello / Agile</span>
+          <span class="mchip">&#128444;&#65039;&nbsp;UserControls .NET</span>
+          <span class="mchip">&#9878;&#65039;&nbsp;Comp. B1.1 &mdash; B3.1</span>
+        </div></div><!-- /modal-scroll -->
+  </div><!-- /modal-panel -->
+</div><!-- /modal -->
+
+<button class="btt" id="btt" aria-label="Retour en haut">&#8593;</button>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" role="dialog" aria-modal="true" aria-label="Image agrandie">
+  <button id="lbClose" aria-label="Fermer">&#x2715;</button>
+  <button id="lbPrev" aria-label="Pr&eacute;c&eacute;dent">&#8592;</button>
+  <img id="lbImg" src="" alt=""/>
+  <button id="lbNext" aria-label="Suivant">&#8594;</button>
+  <div id="lbCaption"></div>
+  <div id="lbCounter"></div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

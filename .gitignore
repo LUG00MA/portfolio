@@ -1,0 +1,12 @@
+# Fichiers sensibles (identifiants base de données)
+db.php
+index.php
+velolaon/config/parameter.php
+velolaon/fix_*.php
+
+# Éditeur
+.vscode/
+
+# Système
+.DS_Store
+Thumbs.db
